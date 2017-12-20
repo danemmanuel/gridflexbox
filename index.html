@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Grid Flex Framework</title>
+
+	<meta class="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Social -->
+	<meta property="og:locale" content="pt_BR">
+	<meta property="og:url" content="http://danvieira.me/tool/responsive">
+	<meta property="og:title" content="Flexgrid Framework">
+	<meta property="og:site_name" content="Flexgrid Framework">
+	<meta property="og:description" content="Framework para grids em flexbox">
+	<meta property="og:image" content="http://danvieira.me/tool/responsive/face.png">
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:image:width" content="200">
+	<meta property="og:image:height" content="200">
+	<meta property="og:type" content="website">
+
+	<!-- Favicon -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<link rel="stylesheet" href="css/flexgrid.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="row-flex hero">
+	<div class="s12 m12 l12 xl12 row-flex xcenter-ycenter direction-column">
+		<h1 class="hero-title">
+			Um simples framework para grids com flexbox
+		</h1>
+		<!-- Dropdown Trigger -->
+		<div class="downloads">
+			<a class='dropdown-button btn white-text waves-effect waves-light raibow' href='#' data-activates='dropdown1'>Download</a>
+			<a class="waves-effect waves-light btn raibow"><i class="material-icons left">public</i>github</a>
+		</div>
+		
+
+		<!-- Dropdown Structure -->
+		<ul id='dropdown1' class='dropdown-content'>
+			<li><a class="black-text" href="flexgrid-normalize.css" download>Com normalize</a></li>
+			<li><a class="black-text" href="flexgrid.css" download>Sem normalize</a></li>
+		</ul>
+
+	</div>
+</div>
+<div class="code-container row-flex xcenter-ycenter">
+	<code class="code-example">
+		<span class="gray">//HTML</span><br>
+		<span class="white-text">&#60;</span>div
+		<span class="green-text">class</span><span class="white-text">=</span><span class="yellow-text">"row-flex"</span><span class="white-text">&#62;</span> <br>
+		&nbsp;&nbsp;&nbsp;
+		<span class="white-text">&#60;</span>div
+		<span class="green-text">class</span><span class="white-text">=</span><span class="yellow-text">"s6 m6 l6 xl6"</span><span class="white-text">&#62;</span><span class="white-text"> col 1 </span><span class="white-text">&#60;</span>div<span class="white-text">&#62;</span> <br>
+		&nbsp;&nbsp;&nbsp;
+		<span class="white-text">&#60;</span>div
+		<span class="green-text">class</span><span class="white-text">=</span><span class="yellow-text">"s6 m6 l6 xl6"</span><span class="white-text">&#62;</span><span class="white-text"> col 2 </span><span class="white-text">&#60;</span>div<span class="white-text">&#62;</span><br>
+		<span class="white-text">&#60;</span>div<span class="white-text">&#62;</span> <br><br>
+		<span class="gray">//STYLE</span><br>
+		<span class="green-text">.s6, m6, l6, xl6</span><span class="white-text"> {</span><br>
+		&nbsp;&nbsp;&nbsp;
+		<span class="lightblue-text">flex-basis<span class="white-text">: </span><span class="purple-text">50</span><span class="red-text">%</span><span class="white-text">;</span></span><br>
+		<span class="white-text"> }</span>
+	</code>
+</div>
+<div class="features row-flex align-between">
+	<div class="s12 m3 l3 xl3 item">
+		<h2>
+			Simples e leve
+		</h2>
+		O princípio do gridflex é a simplicidade e a leveza. Contém apenas estilos básicos capazes de criar qualquer tipo de site responsivo usando flexbox.
+	</div>
+	<div class="s12 m3 l3 xl3 item">
+		<h2>
+			Poderoso e rápido
+		</h2>
+		Já baixou bootstrap e acabou usando somente o sistema de grid? o Gridflex tem a proposta de auxiliar somente na dolorosa tarefa de tornar sites responsivos, nada mais que isso.
+	</div>
+	<div class="s12 m3 l3 xl3 item">
+		<h2>
+			Moderno e compatível
+		</h2>
+		Veja a compatibilidade do flexbox nos navegadores <a target="_blank" href="https://caniuse.com/#feat=flexbox">aqui</a>
+	</div>
+</div>
+
+
+<div class="howuse">
+	<h2>4 níveis de grid</h2>
+	
+	<div class="row-flex">
+		<div class="blue s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			s1
+		</div>
+		<div class="blue s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			s1
+		</div>
+		<div class="blue s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			s1
+		</div>
+		<div class="blue s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			s1
+		</div>
+		<div class="blue s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			s1
+		</div>
+		<div class="blue s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			s1
+		</div>
+		<div class="blue s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			s1
+		</div>
+		<div class="blue s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			s1
+		</div>
+		<div class="blue s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			s1
+		</div>
+		<div class="blue s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			s1
+		</div>
+		<div class="blue s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			s1
+		</div>
+		<div class="blue s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			s1
+		</div>
+	</div>
+	<div class="row-flex">
+		<div class="green s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			m1
+		</div>
+		<div class="green s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			m1
+		</div>
+		<div class="green s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			m1
+		</div>
+		<div class="green s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			m1
+		</div>
+		<div class="green s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			m1
+		</div>
+		<div class="green s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			m1
+		</div>
+		<div class="green s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			m1
+		</div>
+		<div class="green s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			m1
+		</div>
+		<div class="green s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			m1
+		</div>
+		<div class="green s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			m1
+		</div>
+		<div class="green s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			m1
+		</div>
+		<div class="green s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			m1
+		</div>
+	</div>
+	<div class="row-flex">
+		<div class="purple s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			l1
+		</div>
+		<div class="purple s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			l1
+		</div>
+		<div class="purple s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			l1
+		</div>
+		<div class="purple s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			l1
+		</div>
+		<div class="purple s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			l1
+		</div>
+		<div class="purple s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			l1
+		</div>
+		<div class="purple s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			l1
+		</div>
+		<div class="purple s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			l1
+		</div>
+		<div class="purple s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			l1
+		</div>
+		<div class="purple s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			l1
+		</div>
+		<div class="purple s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			l1
+		</div>
+		<div class="purple s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			l1
+		</div>
+	</div>
+	<div class="row-flex">
+		<div class="brown s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			xl1
+		</div>
+		<div class="brown s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			xl1
+		</div>
+		<div class="brown s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			xl1
+		</div>
+		<div class="brown s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			xl1
+		</div>
+		<div class="brown s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			xl1
+		</div>
+		<div class="brown s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			xl1
+		</div>
+		<div class="brown s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			xl1
+		</div>
+		<div class="brown s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			xl1
+		</div>
+		<div class="brown s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			xl1
+		</div>
+		<div class="brown s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			xl1
+		</div>
+		<div class="brown s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			xl1
+		</div>
+		<div class="brown s1 m1 l1 xl1 row-flex xcenter-ycenter item-hu">
+			xl1
+		</div>
+	</div>
+</div>
+
+
+<div class="breakpoints">
+	<h2>Breakpoints</h2>
+	<div class="titlebrea row-flex xcenter-ycenter">
+
+		<div class="item s12 m3 l5 xl3">
+			<div class="title">
+				<h2>s <span class="opac">small</span></h2>
+			</div>
+			<div class="break">
+				@media screen and (max-width: 600px)
+			</div>
+		</div>
+		<div class="item s12 m3 l5 xl3">
+			<div class="title">
+				<h2>m <span class="opac">medium</span></h2>
+			</div>
+			<div class="break">
+				@media screen and (min-width: 601px)
+			</div>
+		</div>
+		<div class="item s12 m3 l5 xl3">
+			<div class="title">
+				<h2>l <span class="opac">large</span></h2>
+			</div>
+			<div class="break">
+				@media screen and (min-width: 992px)
+			</div>
+		</div>
+		<div class="item s12 m3 l5 xl3">
+			<div class="title">
+				<h2>xl <span class="opac">extra large</span></h2>
+			</div>
+			<div class="break">
+				@media screen and (min-width: 1600px)
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="examples">
+	<h3>Exemplo</h3>
+	<div class="xcenter-ycenter direction-column">
+	<code class="code-example">
+		<span class="gray">//HTML</span><br>
+		<span class="white-text">&#60;</span>div
+		<span class="green-text">class</span><span class="white-text">=</span><span class="yellow-text">"row-flex"</span><span class="white-text">&#62;</span> <br>
+		&nbsp;&nbsp;&nbsp;
+		<span class="white-text">&#60;</span>div
+		<span class="green-text">class</span><span class="white-text">=</span><span class="yellow-text">"s12 m4 l4 xl4"</span><span class="white-text">&#62;</span><span class="white-text"> s12 m2 l4 xl3 </span><span class="white-text">&#60;</span>div<span class="white-text">&#62;</span> <br>
+
+		&nbsp;&nbsp;&nbsp;
+		<span class="white-text">&#60;</span>div
+		<span class="green-text">class</span><span class="white-text">=</span><span class="yellow-text">"s12 m4 l4 xl4"</span><span class="white-text">&#62;</span><span class="white-text"> s12 m2 l4 xl3 </span><span class="white-text">&#60;</span>div<span class="white-text">&#62;</span><br>
+		&nbsp;&nbsp;&nbsp;
+		<span class="white-text">&#60;</span>div
+		<span class="green-text">class</span><span class="white-text">=</span><span class="yellow-text">"s12 m4 l4 xl4"</span><span class="white-text">&#62;</span><span class="white-text"> s12 m2 l4 xl3 </span><span class="white-text">&#60;</span>div<span class="white-text">&#62;</span><br>
+
+		<span class="white-text">&#60;</span>div<span class="white-text">&#62;</span> <br><br>
+	</code>
+	<div class="row-flex">
+		<div class="s12 m2 l4 xl3 blue item-example xcenter-ycenter">class="s12 m2 l4 xl3"</div>
+		<div class="s12 m2 l4 xl3 blue item-example xcenter-ycenter">class="s12 m2 l4 xl3"</div>
+		<div class="s12 m2 l4 xl3 blue item-example xcenter-ycenter">class="s12 m2 l4 xl3"</div>
+	</div>
+</div>	
+</div>
+
+<div class="offsets">
+	<h2>Offsets</h2>
+	<div class="row-flex">
+		<div class="itemoffset blue xcenter-ycenter s1 m1 xl1 offset-s11 offset-m11 offset-l11 offset-xl11">offset-l11</div>
+		<div class="itemoffset blue xcenter-ycenter s2 m2 xl2 l2 offset-s10 offset-m10 offset-l10 offset-xl10">offset-l10</div>
+		<div class="itemoffset blue xcenter-ycenter s3 m3 xl3 l3 offset-s9 offset-m9 offset-l9 offset-xl9">offset-l9</div>
+		<div class="itemoffset blue xcenter-ycenter s4 m4 xl4 l4 offset-s8 offset-m8 offset-l8 offset-xl8">offset-l8</div>
+		<div class="itemoffset blue xcenter-ycenter s5 m5 xl5 l5 offset-s7 offset-m7 offset-l7 offset-xl7">offset-l7</div>
+		<div class="itemoffset blue xcenter-ycenter s6 m6 xl6 l6 offset-s6 offset-m6 offset-l6 offset-xl6">offset-l6</div>
+		<div class="itemoffset blue xcenter-ycenter s7 m7 xl7 l7 offset-s5 offset-m5 offset-l5 offset-xl5">offset-l5</div>
+		<div class="itemoffset blue xcenter-ycenter s8 m8 xl8 l8 offset-s4 offset-m4 offset-l4 offset-xl4">offset-l4</div>
+		<div class="itemoffset blue xcenter-ycenter s9 m9 xl9 l9 offset-s3 offset-m3 offset-l3 offset-xl3">offset-l3</div>
+		<div class="itemoffset blue xcenter-ycenter s10 m10 xl10 l10 offset-s2 offset-m2 offset-l2 offset-xl2">offset-l2</div>
+		<div class="itemoffset blue xcenter-ycenter s11 m11 xl11 l11 offset-s1 offset-m1 offset-l1 offset-xl1">offset-l1</div>
+	</div>
+</div>
+
+<div class="alignments">
+	<h2>Align contents</h2>
+	<div class="row-flex align-center">
+		<div class="xleft-ytop item-al blue s12 m12 l3 xl3">xleft-ytop</div>
+		<div class="xcenter-ytop item-al blue s12 m12 l3 xl3">xcenter-ytop</div>
+		<div class="xright-ytop item-al blue s12 m12 l3 xl3">xright-ytop</div>
+
+		<div class="xleft-ycenter item-al blue s12 m12 l3 xl3">xleft-ycenter</div>
+		<div class="xcenter-ycenter item-al blue s12 m12 l3 xl3">xcenter-ycenter</div>
+		<div class="xright-ycenter item-al blue s12 m12 l3 xl3">xcenter-ycenter</div>
+
+		<div class="xleft-ybottom item-al blue s12 m12 l3 xl3">xleft-ybottom</div>
+		<div class="xcenter-ybottom item-al blue s12 m12 l3 xl3">xleft-ybottom</div>
+		<div class="xright-ybottom item-al blue s12 m12 l3 xl3">xleft-ybottom</div>
+		
+	</div>
+</div>
+
+<div class="just row-flex xcenter-ycenter">
+	<h3>Isso é tudo, o resto é por conta da sua criatividade ;)</h3>
+</div>
+
+<script>
+
+	$('.dropdown-button').dropdown({
+		inDuration: 300,
+		outDuration: 225,
+      constrainWidth: false, // Does not change width of dropdown to that of the activator
+      hover: true, // Activate on hover
+      gutter: 0, // Spacing from edge
+      belowOrigin: false, // Displays dropdown below the button
+      alignment: 'left', // Displays dropdown with edge aligned to the left of button
+      stopPropagation: false // Stops event propagation
+  }
+  );
+
+</script>
+
+        <!--[if lt IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
